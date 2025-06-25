@@ -32,7 +32,7 @@ npm run build:chili3d
 
 # chili3d 项目改动逻辑
 
-1. chili3d 改动打包逻辑，新增 `rspack` 的库配置文件 [rspack.libs.config.js](./chili3drspack.libs.config.js)
+1. chili3d 改动打包逻辑，新增 `rspack` 的库配置文件 [rspack.libs.config.js](./chili3d/rspack.libs.config.js)
 2. 新增打包命令 `build:libs`
 
 # 运行
