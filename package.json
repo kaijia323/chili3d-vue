@@ -1,0 +1,20 @@
+{
+  "name": "chili3d-vue",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:chili3d": "npm run build:libs --prefix ./chili3d",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "vue": "^2.7.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "terser": "^5.14.2",
+    "typescript": "^5.8.3",
+    "vite": "^3.0.2"
+  }
+}
